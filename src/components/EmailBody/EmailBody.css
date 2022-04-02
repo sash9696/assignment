@@ -1,0 +1,45 @@
+.email_body_container{
+    position: sticky;
+    top: 60px;
+    background-color: white;
+    border: 1px solid #cfd2dc;
+    flex: 0.60;
+    margin-left: 22px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    height: 82vh;
+    color: #636363;
+    font-size: 0.8rem;
+}
+.email_upper_body{
+    display: flex;
+}
+.email_body{
+    flex: 1;
+    margin-right: 35px;
+}
+.email_body > p{
+    margin-bottom: 25px;
+}
+.email_body_header{
+    display: flex;
+    justify-content: space-between;
+}
+.email_body_header > p, .email_body_close{
+    height: 25px;
+    padding: 0 10px;
+    font-size: 0.6rem;
+    background-color: #E54065;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.email_body_close{
+    margin-top: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
